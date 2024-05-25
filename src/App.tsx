@@ -1,5 +1,5 @@
 import './App.css'
-import ThinLineToggle from "./components/switch/thinLine/ThinLineToggle.tsx";
+import Toggle from "./components/switch/thinLine/Toggle.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-          <ThinLineToggle />
+          <Toggle />
       </div>
     </>
   )
